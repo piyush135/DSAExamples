@@ -4,11 +4,56 @@ using ConsoleApp1;
 using System.Net.Http.Headers;
 using System.Security;
 
+int[,] graph = {
+            { 0, 2, 0, 6, 0 },
+            { 2, 0, 3, 8, 5 },
+            { 0, 3, 0, 0, 7 },
+            { 6, 8, 0, 0, 9 },
+            { 0, 5, 7, 9, 0 }
+        };
+int vertices = 5;
 
-int[] coins = { 2, 3,7 };
-int amount = 12;
+GreedyAlgo.Prim(graph, vertices);
 
-Console.WriteLine(DynamicProgramming.CountWaysToReachScore(coins, amount)); // Output: 4
+
+// Input intervals
+List<int[]> intervals = new List<int[]>
+        {
+            new int[] {0, 3},
+            new int[] {0, 6},
+            new int[] {0, 17},
+            new int[] {8, 11},
+            new int[] {19, 23}
+        };
+
+GreedyAlgo.NonOverlapIntervel(intervals);
+
+
+int[] values = { 60, 50, 70, 30 };
+int[] weights = { 5, 3, 4, 2 };
+int maxWeight = 8;
+
+var p6 = DynamicProgramming.KnapsackBruteForce(values, weights, maxWeight);
+Console.WriteLine($"Maximum value in the knapsack: {p6.maxValue}");
+Console.WriteLine("Items included (0-based indices): " + string.Join(", ", p6.items));
+
+int[] piles = { 3, 7, 2, 3 };
+bool p5 = DynamicProgramming.StoneGame(piles);
+Console.WriteLine($"Can Alice guarantee a win? {p5}");
+
+//int n = 3, k = 2, row = 0, col = 0;
+//double probability = DynamicProgramming.KnightProbabilityOnBoard(n, k, row, col);
+//Console.WriteLine($"Probability of knight staying on the board: {probability:F4}");
+
+
+//string s = "apple";
+//Console.WriteLine($"Input: {s}");
+//Console.WriteLine($"Output: {DynamicProgramming.DecomposedString(s, new string[] {"a","pl", "e"})}");
+
+//int[] coins = { 2, 3,7 };
+//int amount = 12;
+
+//Console.WriteLine(DynamicProgramming.CountWaysToReachScore(coins, amount)); // Output: 4
 
 //IList<string> timePoints = new List<string> { "00:04", "23:58", "12:03", "12:04" };
 //int p2 = FindMinDifference(timePoints);

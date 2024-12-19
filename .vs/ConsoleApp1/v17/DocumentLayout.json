@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|c:\\users\\icsssd0336\\source\\repos\\consoleapp1\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|c:\\users\\icsssd0336\\source\\repos\\consoleapp1\\consoleapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:consoleapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|c:\\users\\icsssd0336\\source\\repos\\consoleapp1\\greedyalgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:greedyalgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|c:\\users\\icsssd0336\\source\\repos\\consoleapp1\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A3072-3188-4521-AC4E-BAD478C56163}|ConsoleApp1.csproj|solutionrelative:tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,25 +37,64 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:18:30.98Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApp1",
+              "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1.csproj",
+              "ToolTip": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeToolTip": "ConsoleApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T16:43:09.39Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e77209ba-064a-4625-b8ce-dfd1d7967cd1}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GreedyAlgo.cs",
+              "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\GreedyAlgo.cs",
+              "RelativeDocumentMoniker": "GreedyAlgo.cs",
+              "ToolTip": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\GreedyAlgo.cs",
+              "RelativeToolTip": "GreedyAlgo.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAiwI0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:02:31.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DynamicProgramming.cs",
               "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\DynamicProgramming.cs",
               "RelativeDocumentMoniker": "DynamicProgramming.cs",
               "ToolTip": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\DynamicProgramming.cs",
               "RelativeToolTip": "DynamicProgramming.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAJoAAAARAAAA",
+              "ViewState": "AQIAANQBAAAAAAAAAAAEwNsBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T10:57:06.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Tree.cs",
               "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\Tree.cs",
               "RelativeDocumentMoniker": "Tree.cs",
@@ -68,21 +115,7 @@
               "RelativeToolTip": "LinkedList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T08:47:29.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\icsssd0336\\source\\repos\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:18:30.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T08:47:29.917Z"
             }
           ]
         }
