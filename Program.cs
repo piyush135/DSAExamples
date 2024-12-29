@@ -4,16 +4,67 @@ using ConsoleApp1;
 using System.Net.Http.Headers;
 using System.Security;
 
-int[,] graph = {
-            { 0, 2, 0, 6, 0 },
-            { 2, 0, 3, 8, 5 },
-            { 0, 3, 0, 0, 7 },
-            { 6, 8, 0, 0, 9 },
-            { 0, 5, 7, 9, 0 }
-        };
-int vertices = 5;
 
-GreedyAlgo.Prim(graph, vertices);
+// Graph representation (DAG)
+int nodes = 4;
+List<int>[] graph23 = new List<int>[4]
+{
+            new List<int> { 2, 3 },  // Node 1 -> 2, 1 -> 3
+            new List<int> { 4 },     // Node 2 -> 4
+            new List<int> { 4 },     // Node 3 -> 4
+            new List<int> { }        // Node 4
+};
+List<int> result4545 = GraphBFS.TopologicalSort(nodes, graph23);
+Console.WriteLine("Topological Order: [" + string.Join(", ", result4545) + "]");
+
+
+
+string beginWord = "dog";
+string endWord = "lot";
+List<string> words = new List<string> { "dot", "mot", "lot" };
+
+int result123 = GraphDFS.WordLadderLength(beginWord, endWord, words);
+Console.WriteLine($"Output: {result123}");
+
+
+
+List<int>[] graph1 = new List<int>[]
+       {
+            new List<int> { 1 },       // Node 0 -> 1
+            new List<int> { 2 },       // Node 1 -> 2
+            new List<int> { 3 },    // Node 2 -> 0 (cycle), 2 -> 3
+            new List<int> { 4 },       // Node 3 -> 4
+            new List<int> { }          // Node 4 -> No neighbors
+       };
+
+bool hasCycle = GraphBFS.IsCyclic(graph1);
+Console.WriteLine("Cycle detected: " + hasCycle);
+
+
+List<int>[] graph = new List<int>[]
+     {
+            new List<int> { 3 },       // Node 0 is connected to 3
+            new List<int> { 3 },       // Node 1 is connected to 3
+            new List<int> { 4 },       // Node 2 is connected to 4
+            new List<int> { 0, 1 },    // Node 3 is connected to 0 and 1
+            new List<int> { 2 }        // Node 4 is connected to 2
+     };
+
+// Check if the graph is bipartite
+bool result12 = GraphDFS.IsBipartite(graph);
+Console.WriteLine(result12); // Output: True
+
+
+//int[,] graph = {
+//            { 0, 2, 0, 6, 0 },
+//            { 2, 0, 3, 8, 5 },
+//            { 0, 3, 0, 0, 7 },
+//            { 6, 8, 0, 0, 9 },
+//            { 0, 5, 7, 9, 0 }
+//        };
+//int vertices = 5;
+
+//GreedyAlgo.Prim(graph, vertices);
 
 
 // Input intervals
